@@ -1,5 +1,6 @@
 import React from 'react'
 import { SubHeading } from '../../components'
+import './Header.css';
 
 function Header() {
   return (
