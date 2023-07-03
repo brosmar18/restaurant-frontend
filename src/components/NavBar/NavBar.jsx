@@ -6,7 +6,7 @@ import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
 
 function NavBar() {
-
+  const [toggleMenu, setToggleMenu] = useState(false);
   
   return (
     <nav className='app__navbar'>
