@@ -48,6 +48,16 @@
         }
     }
 
+    a {
+        text-decoration: none;
+        transition: 0.5s ease;
+        color: var(--color-white);
+
+        &:hover {
+            border-bottom: 1px solid var(--color-golden);
+        }
+    }
+
     @media screen and (max-width: 1150px) {
         display: none;
     }
@@ -72,5 +82,9 @@
         width: 1px;
         height: 30px ;
         background: var(--color-grey);
+    }
+
+    @media screen and (max-width: 650px) {
+        display: none;
     }
 }
