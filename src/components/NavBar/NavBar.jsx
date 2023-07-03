@@ -2,9 +2,11 @@ import React from 'react'
 
 function NavBar() {
   return (
-    <div>
-      <h1>NavBar</h1>
-    </div>
+    <nav className='app__navbar'>
+      <div className='app__navbar-logo'>
+        
+      </div>
+    </nav>
   )
 }
 
