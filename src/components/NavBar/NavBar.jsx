@@ -4,7 +4,13 @@ function NavBar() {
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
-        
+        <ul className='app__navbar-links'>
+          <li className='p_opensans'><a href='#home'>Home</a></li>
+          <li className='p_opensans'><a href='#home'>About</a></li>
+          <li className='p_opensans'><a href='#home'>Menu</a></li>
+          <li className='p_opensans'><a href='#home'>Awards</a></li>
+          <li className='p_opensans'><a href='#home'>Contact</a></li>
+        </ul>
       </div>
     </nav>
   )
