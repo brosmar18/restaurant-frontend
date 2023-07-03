@@ -8,7 +8,6 @@ function NavBar() {
       <div className='app__navbar-logo'>
         <img src={images.gericht} alt='logo' />
       </div>
-      <div>
         <ul className='app__navbar-links'>
           <li className='p__opensans'><a href='#home'>Home</a></li>
           <li className='p__opensans'><a href='#home'>About</a></li>
@@ -21,7 +20,6 @@ function NavBar() {
           <div />
           <a href='/' className='p__opensans'>Book Catering</a>
         </div>
-      </div>
     </nav>
   )
 }
