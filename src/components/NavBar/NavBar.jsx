@@ -1,9 +1,13 @@
 import React from 'react'
+import {images} from '../../constants';
 
 function NavBar() {
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
+        <img src={images.gericht} alt='logo' />
+      </div>
+      <div>
         <ul className='app__navbar-links'>
           <li className='p_opensans'><a href='#home'>Home</a></li>
           <li className='p_opensans'><a href='#home'>About</a></li>
