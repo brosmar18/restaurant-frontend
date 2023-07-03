@@ -1,8 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {images} from '../../constants';
 import './NavBar.scss';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { MdOutlineRestaurantMenu } from 'react-icons/md';
+
 
 function NavBar() {
+
+  
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
@@ -19,6 +24,10 @@ function NavBar() {
           <a href='#login' className='p__opensans'>Log In / Registration</a>
           <div />
           <a href='/' className='p__opensans'>Book Catering</a>
+        </div>
+
+        <div className='app__navbar-smallscreen'>
+          <MdOutlineRestaurantMenu fontSize={27} className='overlay__close' />
         </div>
     </nav>
   )
