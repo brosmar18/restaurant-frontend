@@ -9,11 +9,11 @@ function NavBar() {
       </div>
       <div>
         <ul className='app__navbar-links'>
-          <li className='p_opensans'><a href='#home'>Home</a></li>
-          <li className='p_opensans'><a href='#home'>About</a></li>
-          <li className='p_opensans'><a href='#home'>Menu</a></li>
-          <li className='p_opensans'><a href='#home'>Awards</a></li>
-          <li className='p_opensans'><a href='#home'>Contact</a></li>
+          <li className='p__opensans'><a href='#home'>Home</a></li>
+          <li className='p__opensans'><a href='#home'>About</a></li>
+          <li className='p__opensans'><a href='#home'>Menu</a></li>
+          <li className='p__opensans'><a href='#home'>Awards</a></li>
+          <li className='p__opensans'><a href='#home'>Contact</a></li>
         </ul>
         <div className='app__navbar-login'>
           <a href='#login' className='p__opensans'>Log In / Registration</a>
