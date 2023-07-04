@@ -17,6 +17,12 @@ function Chef() {
             <img src={images.quote} alt='quote' />
             <p className='p__opensans'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, dolorem facilis magnam quia aut expedita culpa assumenda!</p>
           </div>
+
+          <div className='app__chef-sign'>
+            <p>John Doe</p>
+            <p className='p__opensans'>Chef & Founder</p>
+            <img src={images.sign} alt='signature' />
+          </div>
         </div>
       </div>
     </section>
