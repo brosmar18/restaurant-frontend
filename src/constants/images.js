@@ -17,6 +17,8 @@ import gallery02 from '../assets/gallery02.png';
 import gallery03 from '../assets/gallery03.png';
 import gallery04 from '../assets/gallery04.png';
 import findus from '../assets/findus.png';
+import mug from '../assets/mug.png';
+import mug2 from '../assets/mug2.png';
 
 
 export default {
@@ -38,5 +40,7 @@ export default {
     gallery02,
     gallery03,
     gallery04,
-    findus
+    findus,
+    mug,
+    mug2
 };

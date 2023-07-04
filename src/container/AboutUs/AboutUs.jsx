@@ -6,7 +6,7 @@ function AboutUs() {
   return (
     <section className='app__aboutus app__bg flex__center section__padding' id='about'>
       <div className='app__aboutus-overlay flex__center'>
-        <img src={images.G} alt='G letter' />
+        <img src={images.mug} alt='mug' />
       </div>
       <div className='app__aboutus-content flex__center'>
         <div className='app__aboutus-content_about'>
