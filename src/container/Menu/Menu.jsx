@@ -16,7 +16,7 @@ function Menu() {
           <p className='app__specialMenu_menu_heading'>Wine & Beer</p>
           <div className='app__specialMenu_menu_items'>
             {data.wines.map((wine, index) => (
-              <p>{wine.title}</p>
+              <MenuItem key={wine.title + index} price={wine.price} title={wine.price} tags={wine.tags} />
             ))}
           </div>
         </div>
@@ -28,7 +28,7 @@ function Menu() {
           <p className='app__specialMenu_menu_heading'>Cocktails</p>
           <div className='app__specialMenu_menu_items'>
             {data.cocktails.map((cocktail, index) => (
-              <p>{cocktail.title}</p>
+             <MenuItem key={cocktail.title + index} title={cocktail.title} tags={cocktail.tags} price={cocktail.price} />
             ))}
           </div>ß
         </div>
