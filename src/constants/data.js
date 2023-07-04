@@ -36,9 +36,19 @@ const breakfast = [
     price: '$3.99',
     desc: 'Add bacon or sausage',
   },
+  {
+    title: 'Pancakes',
+    price: '$5.99',
+    desc: 'Two pancakes. Add chocolate chips, or blueberries',
+  },
+  {
+    title: 'Quiche of the day',
+    price: '$6.99',
+    desc: 'Homemade quiche',
+  }
 ];
 
-const cocktails = [
+const lunch = [
   {
     title: 'Aperol Sprtiz',
     price: '$20',
@@ -89,4 +99,4 @@ const awards = [
   },
 ];
 
-export default { breakfast, cocktails, awards };
+export default { breakfast, lunch, awards };
