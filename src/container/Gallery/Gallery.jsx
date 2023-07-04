@@ -24,6 +24,7 @@ function Gallery() {
       <div className='app__gallery-content'>
         <SubHeading title="Instagram" />
         <h1 className='headtext__cormorant'>Photo Gallery</h1>
+        <button type='button' className='custom__button'>View More</button>
       </div>
     </section>
   )
