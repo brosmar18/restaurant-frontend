@@ -33,3 +33,7 @@
     overflow-x: scroll;
     scrollbar-width: none;
 }
+
+.app__gallery-images_container::-webkit-scrollbar {
+    display: none;
+}
