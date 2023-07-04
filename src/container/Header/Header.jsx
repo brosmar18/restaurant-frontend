@@ -1,11 +1,18 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import { SubHeading } from '../../components'
 import './Header.css';
-import {images} from '../../constants';
+import client, {urlFor} from '../../client/client';
 
 
 
 function Header() {
+const [brandImgs, setBrandImgs] = useState([]);
+
+useEffect(() => {
+  const query = `*[_type == "brandImg"]`
+
+  client.fetch(query).then((data) =>setBrandImgs(data))
+},[]);
 
   return (
     <header className='app__header app__wrapper section__padding' id='home'>
@@ -16,9 +23,15 @@ function Header() {
           <button type='button' className='custom__button'>Explore Menu</button>
         </div>
 
-        <div className='app__wrapper_img'>
-          <img src={images.welcome} alt='welcome' />
-        </div>
+        {/* <div className='app__wrapper_img'>
+
+        </div> */}
+        {brandImgs.map((brandImg, index) => (
+          <div className='app__wrapper_img'>
+            <img src={urlFor(brandImg.welcome)} alt={brandImg.name} />
+          </div>
+        ))}
+
     </header>
   )
 }
