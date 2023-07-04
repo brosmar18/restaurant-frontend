@@ -26,6 +26,9 @@ function Gallery() {
         <h1 className='headtext__cormorant'>Photo Gallery</h1>
         <button type='button' className='custom__button'>View More</button>
       </div>
+      <div className='app__gallery-images'>
+        
+      </div>
     </section>
   )
 }
