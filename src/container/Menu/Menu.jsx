@@ -5,8 +5,11 @@ import './Menu.css';
 
 function Menu() {
   return (
-    <div>
-      <h1>Menu</h1>
+    <div className='app__specialMenu flex__center section__padding' id='menu'>
+      <div className='app__specialMenu-title'>
+        <SubHeading title='Menu that fits your palette' />
+        <h1 className='headtext__cormorant'>Today's Special Menu</h1>
+      </div>
     </div>
   )
 }
