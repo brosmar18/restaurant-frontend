@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { SubHeading } from '../../components'
 import './Header.css';
 import {images} from '../../constants';
 
+
+
 function Header() {
+  const [copyText, setCopyText] = useState([]);
   return (
     <header className='app__header app__wrapper section__padding' id='home'>
         <div className='app__wrapper_info'>
