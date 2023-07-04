@@ -23,9 +23,6 @@ useEffect(() => {
           <button type='button' className='custom__button'>Explore Menu</button>
         </div>
 
-        {/* <div className='app__wrapper_img'>
-
-        </div> */}
         {brandImgs.map((brandImg, index) => (
           <div className='app__wrapper_img'>
             <img src={urlFor(brandImg.welcome)} alt={brandImg.name} />

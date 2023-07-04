@@ -1,4 +1,4 @@
-import gericht from '../assets/gericht.png';
+import logo from '../assets/logo.png';
 import spoon from '../assets/spoon.png';
 import welcome from '../assets/welcome.png';
 import G from '../assets/G.png';
@@ -20,7 +20,7 @@ import findus from '../assets/findus.png';
 
 
 export default {
-    gericht,
+    logo,
     spoon,
     welcome,
     G,
