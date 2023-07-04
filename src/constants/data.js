@@ -30,21 +30,6 @@ const breakfast = [
     title: 'Biscuits & Gravy',
     price: '$3.99',
     desc: 'One or Two Biscuit option',
-  },
-  {
-    title: 'Egg & Cheese Biscuit',
-    price: '$3.99',
-    desc: 'Add bacon or sausage',
-  },
-  {
-    title: 'Pancakes',
-    price: '$5.99',
-    desc: 'Two pancakes. Add chocolate chips, or blueberries',
-  },
-  {
-    title: 'Quiche of the day',
-    price: '$6.99',
-    desc: 'Homemade quiche',
   }
 ];
 
@@ -78,22 +63,7 @@ const lunch = [
     title: 'Medeteranian wrap',
     price: '$8.99',
     desc: 'Hummus, quinoa, mixed greens, cucumber, feta cheese, olives, onion & golden raisans.',
-  },
-  {
-    title: 'Classic BLT',
-    price: '$8.99',
-    desc: 'Bacon, lettuce & tomato',
-  },
-  {
-    title: 'Burger',
-    price: '$8.99',
-    desc: 'Lettuce, Tomato, Onion & Cheese on a Pretzel Bun with Chips. Add bacon.',
-  },
-  {
-    title: 'Salads',
-    price: '$5.99',
-    desc: 'Mediterranean and Chef salad options.',
-  },
+  }
 ];
 
 const awards = [
