@@ -1,6 +1,6 @@
 import React from 'react'
-import {SubHeading, MenuItem} from '../../components';
-import {images, data} from '../../constants';
+import { SubHeading, MenuItem } from '../../components';
+import { images, data } from '../../constants';
 import './Menu.css';
 
 function Menu() {
@@ -19,10 +19,20 @@ function Menu() {
               <p>{wine.title}</p>
             ))}
           </div>
-          <div className='app__specialMenu-menu_img'>
-            <img src={images.menu} alt='menu' />
-          </div>
         </div>
+
+        <div className='app__specialMenu-menu_img'>
+          <img src={images.menu} alt='menu' />
+        </div>
+        <div className='app__specialMenu-menu_cocktails flex__center'>
+          <p className='app__specialMenu_menu_heading'>Cocktails</p>
+          <div className='app__specialMenu_menu_items'>
+            {data.cocktails.map((cocktail, index) => (
+              <p>{cocktail.title}</p>
+            ))}
+          </div>ß
+        </div>
+
       </div>
     </div>
   )
