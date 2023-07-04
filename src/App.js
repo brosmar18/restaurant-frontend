@@ -1,5 +1,5 @@
 import React from 'react'
-import { AboutUs, Awards, Chef, FindUs, Footer, Gallery, Header, Intro, Menu} from './container';
+import { AboutUs, Awards, FindUs, Footer, Gallery, Header, Intro, Menu} from './container';
 import { NavBar } from './components';
 import './App.css';
 
@@ -11,7 +11,6 @@ const App = () => {
       <Header />
       <AboutUs />
       <Menu />
-      <Chef />
       <Intro />
       <Awards />
       <Gallery />
