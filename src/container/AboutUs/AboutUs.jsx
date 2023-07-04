@@ -17,7 +17,7 @@ function AboutUs() {
         </div>
 
         <div className='app__aboutus-content_knife flex__center'>
-          <img src={images.knife} alt='knife' />
+          <img src={images.spatula} alt='Spatula' />
         </div>
 
         <div className='app__aboutus-content_history'>
