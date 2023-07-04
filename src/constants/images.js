@@ -3,11 +3,20 @@ import spoon from '../assets/spoon.png';
 import welcome from '../assets/welcome.png';
 import G from '../assets/G.png';
 import knife from '../assets/knife.png';
+import award01 from '../assets/award01.png';
+import award02 from '../assets/award02.png';
+import award03 from '../assets/award03.png';
+import award05 from '../assets/award05.png';
+
 
 export default {
     gericht,
     spoon,
     welcome,
     G,
-    knife
+    knife,
+    award01,
+    award02,
+    award03,
+    award05
 };
