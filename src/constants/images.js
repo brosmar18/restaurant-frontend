@@ -11,6 +11,7 @@ import menu from '../assets/menu.png';
 import chef from '../assets/chef.png';
 import quote from '../assets/quote.png';
 import sign from '../assets/sign.png';
+import laurels from '../assets/laurels.png';
 
 
 export default {
@@ -26,5 +27,6 @@ export default {
     menu,
     chef,
     quote,
-    sign
+    sign,
+    laurels
 };
