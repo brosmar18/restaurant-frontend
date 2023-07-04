@@ -34,3 +34,15 @@
         font-size: 2rem;
     }
 }
+
+@media screen and (max-width: 990px) {
+    .app__newsletter-input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app__newsletter-input input {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+}
