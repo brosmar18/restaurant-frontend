@@ -1,7 +1,7 @@
 import React from 'react'
 import './MenuItem.css';
 
-function MenuItem({title, price, tags}) {
+function MenuItem({title, price, desc}) {
   return (
     <div className='app__menuitem'>
         <div className='app__menuitem-head'>
@@ -15,7 +15,7 @@ function MenuItem({title, price, tags}) {
         </div>
 
         <div className='app__menuitem-sub'>
-            <p className='p__opensans' style={{color: '#AAA'}}>{tags}</p>
+            <p className='p__opensans' style={{color: '#AAA'}}>{desc}</p>
         </div>
     </div>
   )
