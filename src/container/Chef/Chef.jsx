@@ -1,10 +1,13 @@
 import React from 'react'
+import {images} from '../../constants';
 
 function Chef() {
   return (
-    <div>
-      <h1>Chef</h1>
-    </div>
+    <section className='app__bg app__wrapper section__padding'>
+      <div className='app__wrapper_img app__wrapper__img-referse'>
+        <img src={images.chef} alt='chef photo' />
+      </div>
+    </section>
   )
 }
 
