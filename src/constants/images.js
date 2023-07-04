@@ -9,6 +9,7 @@ import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import menu from '../assets/menu.png';
 import chef from '../assets/chef.png';
+import quote from '../assets/quote.png';
 
 
 export default {
@@ -22,5 +23,6 @@ export default {
     award03,
     award05,
     menu,
-    chef
+    chef,
+    quote
 };
