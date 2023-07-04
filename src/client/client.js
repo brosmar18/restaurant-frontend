@@ -9,3 +9,9 @@ const client = createClient({
     token: process.env.REACT_APP_SANITY_TOKEN,
     ignoreBrowserTokenWarning: true
 });
+
+const builder = ImageUrlBuilder(client);
+
+export const urlFor = (source) => builder.image(source);
+
+export default client;
