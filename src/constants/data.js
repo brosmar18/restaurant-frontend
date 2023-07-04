@@ -1,30 +1,40 @@
 import images from './images';
 
-const wines = [
+const breakfast = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Breakfast Burrito',
+    price: '$8.99',
+    desc: 'Eggs, cheese & refried beans, your choice of meat and/or veggies',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Egg & Cheese Sandwhich',
+    price: '$6.99',
+    desc: 'Your choice of bread: white, wheat, sourdough, croissant, or gluten-free',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Mother Eartch: Bowl/Wrap/Omelette',
+    price: '$8.99',
+    desc: 'Eggs, green peppers, onions, mushcrooms, celery & cheese',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Aesops: Bowl/Wrap/Omelette',
+    price: '$8.99',
+    desc: 'Eggs, hummus, feta cheese, cucumbers, sprouts, bell peppers, artichoke hearts & onions.',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Paleo: Bowl/Wrap/Omelette',
+    price: '$8.99',
+    desc: 'Eggs, ham, sausage, green pepper & onion',
+  },
+  {
+    title: 'Biscuits & Gravy',
+    price: '$3.99',
+    desc: 'One or Two Biscuit option',
+  },
+  {
+    title: 'Egg & Cheese Biscuit',
+    price: '$3.99',
+    desc: 'Add bacon or sausage',
   },
 ];
 
@@ -32,27 +42,27 @@ const cocktails = [
   {
     title: 'Aperol Sprtiz',
     price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    desc: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
     title: "Dark 'N' Stormy",
     price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    desc: 'Dark rum | Ginger beer | Slice of lime',
   },
   {
     title: 'Daiquiri',
     price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    desc: 'Rum | Citrus juice | Sugar',
   },
   {
     title: 'Old Fashioned',
     price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    desc: 'Bourbon | Brown sugar | Angostura Bitters',
   },
   {
     title: 'Negroni',
     price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    desc: 'Gin | Sweet Vermouth | Campari | Orange garnish',
   },
 ];
 
@@ -79,4 +89,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { breakfast, cocktails, awards };
