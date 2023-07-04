@@ -4,8 +4,8 @@ import { meal } from '../../constants';
 import './Intro.css';
 
 function Intro() {
-  const [playVideo, setPlayVideo] = React.useState(false);
-  const vidRef = React.useRef();
+  const [playVideo, setPlayVideo] = useState(false);
+  const vidRef = useRef();
 
   return (
     <div className="app__video">
