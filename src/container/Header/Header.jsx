@@ -2,11 +2,20 @@ import React, {useState, useEffect} from 'react'
 import { SubHeading } from '../../components'
 import './Header.css';
 import {images} from '../../constants';
+import client, {urlFor} from '../../client/client';
 
 
 
 function Header() {
   const [copyText, setCopyText] = useState([]);
+
+  useEffect(() => {
+    const query = `*[_type == "copyText"]`;
+
+    client.fetch(query).then((data) => setCopyText(data));
+  }, []);
+
+  
   return (
     <header className='app__header app__wrapper section__padding' id='home'>
         <div className='app__wrapper_info'>
