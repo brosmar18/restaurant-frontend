@@ -18,9 +18,8 @@ function Footer() {
         <p className="p__opensans">(319) 999-9999</p>
         <p className="p__opensans">theemail@email.com</p>
         </div>
-      </div>
 
-      <div className="app__footer-links_logo">
+        <div className="app__footer-links_logo">
         <img src={images.gericht} alt="footer_logo" />
         <p className="p__opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
@@ -29,6 +28,15 @@ function Footer() {
           <FiTwitter />
           <FiInstagram />
         </div>
+      </div>
+      <div className="app__footer-links_work">
+        <h1 className="app__footer-headtext">Working Hours</h1>
+        <p className="p__opensans">Monday-Friday:</p>
+        <p className="p__opensans">08:00 am - 12:00 am</p>
+        <p className="p__opensans">Saturday-Sunday:</p>
+        <p className="p__opensans">07:00 am - 11:00 pm</p>
+      </div>
+
       </div>
     </section>
   )
