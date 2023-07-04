@@ -19,6 +19,9 @@ function Menu() {
               <p>{wine.title}</p>
             ))}
           </div>
+          <div className='app__specialMenu-menu_img'>
+            <img src={images.menu} alt='menu' />
+          </div>
         </div>
       </div>
     </div>
