@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 
 function Intro() {
   return (
