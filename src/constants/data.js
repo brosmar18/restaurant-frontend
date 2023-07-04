@@ -50,29 +50,49 @@ const breakfast = [
 
 const lunch = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    desc: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Curry Chicken Sandwhich',
+    price: '$8.99',
+    desc: 'Curry mayo chicken salad on a croissant',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    desc: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Turkey Confetta Sandwhich",
+    price: '$8.99',
+    desc: 'Turkey, cranberry & feta cheese',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    desc: 'Rum | Citrus juice | Sugar',
+    title: 'BBQ Pulled Pork Sliders',
+    price: '$8.99',
+    desc: '2 BBQ pulled pork & sauce on rolls',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    desc: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Mango Chutney Salami Sanwhich',
+    price: '$8.99',
+    desc: 'Ham, salami, mango chutney & goat cheese',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    desc: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Veggie Melt',
+    price: '$8.99',
+    desc: 'Hummus, sautted veggies & white cheddar',
+  },
+  {
+    title: 'Medeteranian wrap',
+    price: '$8.99',
+    desc: 'Hummus, quinoa, mixed greens, cucumber, feta cheese, olives, onion & golden raisans.',
+  },
+  {
+    title: 'Classic BLT',
+    price: '$8.99',
+    desc: 'Bacon, lettuce & tomato',
+  },
+  {
+    title: 'Burger',
+    price: '$8.99',
+    desc: 'Lettuce, Tomato, Onion & Cheese on a Pretzel Bun with Chips. Add bacon.',
+  },
+  {
+    title: 'Salads',
+    price: '$5.99',
+    desc: 'Mediterranean and Chef salad options.',
   },
 ];
 
