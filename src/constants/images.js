@@ -8,6 +8,9 @@ import award02 from '../assets/award02.png';
 import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import menu from '../assets/menu.png';
+import chef from '../assets/chef.png';
+import quote from '../assets/quote.png';
+import sign from '../assets/sign.png';
 
 
 export default {
@@ -20,5 +23,8 @@ export default {
     award02,
     award03,
     award05,
-    menu
+    menu,
+    chef,
+    quote,
+    sign
 };
