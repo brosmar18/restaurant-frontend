@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 
 function Footer() {
   return (
