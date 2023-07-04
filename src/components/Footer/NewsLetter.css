@@ -24,3 +24,7 @@
     padding: 0.75rem 1rem;
     background: var(--color-black)
 }
+
+.app__newsletter-input button {
+    width: max-content;
+}
