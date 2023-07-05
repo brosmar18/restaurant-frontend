@@ -1,9 +1,9 @@
 import React from 'react'
-import { AboutUs, Awards, FindUs, Footer, Gallery, Header, Intro, Menu} from './container';
+import { AboutUs, Awards, FindUs, Footer, Gallery, Header, Intro, Menu } from './container';
 import { NavBar } from './components';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import {MenuPage} from './pages';
+import { MenuPage } from './pages';
 
 
 const App = () => {
@@ -12,19 +12,19 @@ const App = () => {
       <Router>
         <NavBar />
         <Routes>
-          <route path="/" element={<MenuPage />} />
+          <Route path="/menu" element={<MenuPage />} />
         </Routes>
       </Router>
-      <Header />
+      {/* <Header />
       <AboutUs />
       <Menu />
       <Intro />
       <Awards />
       <Gallery />
       <FindUs />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }
 
-export default App
+export default App;
